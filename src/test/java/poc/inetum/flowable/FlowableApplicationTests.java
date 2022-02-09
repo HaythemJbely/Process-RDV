@@ -1,4 +1,4 @@
-package bzh.zomzog.pony;
+package poc.inetum.flowable;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

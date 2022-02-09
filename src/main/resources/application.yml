@@ -1,13 +1,13 @@
 spring:
   datasource:
-    url: jdbc:h2:mem:activiti;DB_CLOSE_DELAY=-1
+    url: jdbc:h2:mem:testdb
     name:
-    username:
-    password:
+    username: sa
+    password: password
     driver-class-name: org.h2.Driver
   h2:
     console:
-      enabled: false
+      enabled: true
   jpa:
     database: H2
     show-sql: true
@@ -18,3 +18,9 @@ spring:
       hibernate.cache.use_query_cache: false
       hibernate.generate_statistics: true
 
+flowable:
+  mailServerHost: smtp.gmail.com
+  mailServerPort: 587
+  mailServerUserName: rh-cynapsys@cynapsys.de
+  mailServerPassword: tunisie2014!
+  mailServerUseTls: true

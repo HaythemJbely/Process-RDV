@@ -1,4 +1,4 @@
-package bzh.zomzog.pony.exception;
+package poc.inetum.flowable.exception;
 
 /**
  * Created by Zomzog on 25/09/2017.
@@ -18,5 +18,7 @@ public class FunctionalException extends Exception {
     public FunctionalException(final String message) {
         super(message);
     }
+
+
 
 }
